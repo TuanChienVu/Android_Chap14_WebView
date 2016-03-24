@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/hinhdaidien"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp" />
+
+    <TextView
+        android:id="@+id/tv_Tieude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toEndOf="@+id/hinhdaidien"
+        android:layout_toRightOf="@+id/hinhdaidien"
+        android:lines="2"
+        android:text="Tin The Thao"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#2f19f0"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/tv_ngayviet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_Tieude"
+        android:text="1 hour"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#f38212" />
+
+</RelativeLayout>
